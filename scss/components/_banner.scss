@@ -1,0 +1,32 @@
+.banner{
+    background-image:linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url(../assets/images/banner/home-banner.jpg);
+    width: 100vw;
+    height: 80vh;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    @extend %animation-banner;
+    &__cont{
+        font-size: 2rem;
+        color: #F3EDDF;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        @include short{
+            top: 70%;
+        }
+        @include medium{
+            top: 40%;
+        }
+        @include large{
+            top: 60%;
+        }
+    }
+    &__description{
+        font-size: 3rem;
+        @include medium{
+            font-size: 5rem;
+        }
+    }
+
+}
