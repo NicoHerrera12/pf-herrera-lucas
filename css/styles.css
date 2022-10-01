@@ -68,6 +68,7 @@ ol, ul {
 }
 .header #titulo {
   color: #000;
+  font-family: "Bevan", sans-serif;
 }
 .header__img {
   width: 50px;
