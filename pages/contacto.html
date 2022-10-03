@@ -17,7 +17,7 @@
     <header class="header d-flex flex-column justify-content-between flex-md-row">
         
         <a href="../index.html" class="header__title     d-flex align-items-center justify-content-center">
-            <img class="header__img" src="../assets/images/logo/logo-rugby.png" alt="">
+            <img class="header__img" src="../assets/images/logo/logo-rugby.png" alt="Logo de la tienda Rugby Store">
             <h1 id="titulo">Rugby Store</h1>
         </a>
     
@@ -57,49 +57,58 @@
     
     <main>
         <section class="contacto container-fluid">
-            <h2 class="section__title contacto__title">Contacto</h2> 
+            <h2 class="section__title contacto__title">Contacto</h2>
+
             <form class="contacto__form d-flex flex-column">
-                    <div>
-                        <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" name="" placeholder="Nombre">
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="" placeholder="Ej: nombre@algo.com" required>
-                    </div>
-                    <div>
-                        <label for="contraseña">Contraseña</label>
-                        <input type="password" id="contraseña" name="" required>
-                    </div>
-                    <div>
-                        <label for="consulta">De que trata tu consulta?</label>
-                        <select id="consulta">
-                            <option value="Pago rechazado">Pago</option>
-                            <option value="Reclamo">Reclamo</option>
-                            <option value="Agradecimiento">Agradecimiento</option>
-                            <option value="Sugerencia">Sugerencia</option>
-                        </select>
-                    </div>
-                    <div>
-                        <textarea class="section-contacto--textarea" cols="30" rows="10" placeholder="Deja tu consulta aqui!"></textarea>
-                    </div>
-                    <div>
-                        <label for="terms">Terminos y condiciones</label>
-                        <input id="terms" type="checkbox" name="" value="acepta-terminos" required>
-                    </div>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="" placeholder="Nombre">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="" placeholder="Ej: nombre@algo.com" required>
+                </div>
+
+                <div>
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" id="contraseña" name="" required>
+                </div>
+
+                <div>
+                    <label for="consulta">De que trata tu consulta?</label>
+                    <select id="consulta">
+                        <option value="Pago rechazado">Pago</option>
+                        <option value="Reclamo">Reclamo</option>
+                        <option value="Agradecimiento">Agradecimiento</option>
+                        <option value="Sugerencia">Sugerencia</option>
+                    </select>
+                </div>
+
+                <div>
+                    <textarea class="section-contacto--textarea" cols="30" rows="10" placeholder="Deja tu consulta aqui!"></textarea>
+                </div>
+
+                <div>
+                    <label for="terms">Terminos y condiciones</label>
+                    <input id="terms" type="checkbox" name="" value="acepta-terminos" required>
+                </div>
                     
-                    <span>Queres recibir noticias?</span>
-                    <div>
-                        <label for="si">Si</label>
-                        <input id="si" type="radio" name="noticias" value="noticias-si">
-                    </div>
-                    <div>
-                        <label for="no">No</label>
-                        <input id="no" type="radio" name="noticias" value="noticias-no">
-                    </div>
+                <span>Queres recibir noticias?</span>
+
+                <div>
+                    <label for="si">Si</label>
+                    <input id="si" type="radio" name="noticias" value="noticias-si">
+                </div>
+                
+                <div>
+                    <label for="no">No</label>
+                    <input id="no" type="radio" name="noticias" value="noticias-no">
+                </div>
                     
-                    <button class="contacto__button" type="submit">Enviar</button>
+                <button class="contacto__button" type="submit">Enviar</button>
             </form>
+
             <article class="contacto__info d-flex flex-column align-items-center justify-content-evenly">
                 <ul>
                     <li><i class="bi bi-envelope contacto__bi"></i>rugby@store.com</li>

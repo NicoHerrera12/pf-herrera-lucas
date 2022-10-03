@@ -1,5 +1,6 @@
 .box{
     overflow-x: auto;
+    overflow-y: hidden;
 
     &__card{
         background: rgb(87,174,235);
@@ -15,6 +16,9 @@
 	    border-radius: 15px;
         transform: scale(1.05);
         transition: all 0.5s;
+    }
+    &__name{
+        font-size: 1.2rem;
     }
     &__comprar{
         background-color: $color-secundario;

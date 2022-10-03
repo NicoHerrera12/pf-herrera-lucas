@@ -196,6 +196,7 @@ ol, ul {
 
 .box {
   overflow-x: auto;
+  overflow-y: hidden;
 }
 .box__card {
   background: rgb(87, 174, 235);
@@ -210,6 +211,9 @@ ol, ul {
   border-radius: 15px;
   transform: scale(1.05);
   transition: all 0.5s;
+}
+.box__name {
+  font-size: 1.2rem;
 }
 .box__comprar {
   background-color: #425A7D;
