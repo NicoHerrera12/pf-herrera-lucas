@@ -20,12 +20,14 @@
         }
     }
     &__info{
+        font-size: 1rem;
         color: #000;
+        font-weight: bold;
         width: 100%;
         border-radius: 10px;
         padding: 0.5em;
         background: rgb(87,174,235);
-        background: linear-gradient(180deg, rgba(87,174,235,1) 0%, rgba(28,97,145,1) 51%, rgba(1,32,38,1) 100%);
+        background: linear-gradient(180deg, rgba(87,174,235,1) 0%, rgba(28,97,145,1) 51%, rgb(3, 64, 77) 100%);
         @extend %scale-up-center;
         @include medium{
             grid-area: info;
@@ -36,12 +38,14 @@
         padding: 1rem;
     }
     &__form{
+        font-size: 1rem;
         color: #000;
+        font-weight: bold;
         padding: 1rem;
         width: 100%;
         border-radius: 10px;
         background: rgb(87,174,235);
-        background: linear-gradient(180deg, rgba(87,174,235,1) 0%, rgba(28,97,145,1) 51%, rgba(1,32,38,1) 100%);
+        background: linear-gradient(180deg, rgba(87,174,235,1) 0%, rgba(28,97,145,1) 51%, rgb(3, 64, 77) 100%);
         @extend %scale-up-center;
         @include medium{
             grid-area: form;
@@ -64,5 +68,8 @@
         background-color: $color-cuatro;
         padding: 10px;
         border-radius: 10px;
+    }
+    #terms{
+        width: 5%;
     }
 }

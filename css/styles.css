@@ -304,12 +304,14 @@ ol, ul {
   }
 }
 .contacto__info {
+  font-size: 1rem;
   color: #000;
+  font-weight: bold;
   width: 100%;
   border-radius: 10px;
   padding: 0.5em;
   background: rgb(87, 174, 235);
-  background: linear-gradient(180deg, rgb(87, 174, 235) 0%, rgb(28, 97, 145) 51%, rgb(1, 32, 38) 100%);
+  background: linear-gradient(180deg, rgb(87, 174, 235) 0%, rgb(28, 97, 145) 51%, rgb(3, 64, 77) 100%);
 }
 @media (min-width: 768px) {
   .contacto__info {
@@ -321,12 +323,14 @@ ol, ul {
   padding: 1rem;
 }
 .contacto__form {
+  font-size: 1rem;
   color: #000;
+  font-weight: bold;
   padding: 1rem;
   width: 100%;
   border-radius: 10px;
   background: rgb(87, 174, 235);
-  background: linear-gradient(180deg, rgb(87, 174, 235) 0%, rgb(28, 97, 145) 51%, rgb(1, 32, 38) 100%);
+  background: linear-gradient(180deg, rgb(87, 174, 235) 0%, rgb(28, 97, 145) 51%, rgb(3, 64, 77) 100%);
 }
 @media (min-width: 768px) {
   .contacto__form {
@@ -348,6 +352,25 @@ ol, ul {
   background-color: #162464;
   padding: 10px;
   border-radius: 10px;
+}
+.contacto #terms {
+  width: 5%;
+}
+
+.sobre-nosotros {
+  background-color: rgb(243, 235, 219);
+}
+.sobre-nosotros__foto {
+  width: 300px;
+  border-radius: 20px;
+}
+.sobre-nosotros__info {
+  font-weight: bold;
+  color: rgb(68, 67, 65);
+  font-size: 1.2rem;
+}
+.sobre-nosotros__title {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

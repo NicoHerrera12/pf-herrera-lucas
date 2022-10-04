@@ -1,0 +1,15 @@
+.sobre-nosotros{
+    background-color: rgb(243, 235, 219); ;
+    &__foto{
+        width: 300px;
+        border-radius: 20px;
+    }
+    &__info{
+        font-weight: bold;
+        color: rgb(68, 67, 65);
+        font-size: 1.2rem;
+    }
+    &__title{
+        font-size: 2rem;
+    }
+}
